@@ -441,6 +441,12 @@ typedef enum android_pixel_format {
     HAL_PIXEL_FORMAT_YCbCr_422_SP       = 0x10, // NV16
     HAL_PIXEL_FORMAT_YCrCb_420_SP       = 0x11, // NV21
     HAL_PIXEL_FORMAT_YCbCr_422_I        = 0x14, // YUY2
+
+    /* OEM specific HAL formats */
+    HAL_PIXEL_FORMAT_YCbCr_420_P        = 0x13,
+    HAL_PIXEL_FORMAT_YCbCr_420_SP       = 0x19,
+    HAL_PIXEL_FORMAT_YCrCb_422_SP       = 0x1B,
+    HAL_PIXEL_FORMAT_YCrCb_420_P        = 0x1C,
 } android_pixel_format_t;
 
 /*
